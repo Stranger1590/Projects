@@ -1,0 +1,123 @@
+/* HEADER BOX */
+.header-flex {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 55px;
+    color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(199, 199, 199);;;
+}
+/* LEFT */
+.left {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+.logo-utub {
+height: 40px;
+}
+.hamburger {
+height: 40px;
+margin-right: 24px;
+margin-left: 24px;
+}
+/* End of left*/
+
+/* middle */
+.middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+.search-box {
+    border: 1px solid rgb(212, 212, 212);
+    box-shadow: inset 2px 3px 4px rgba(0, 0, 0, 0.10);
+    height: 37px;
+    display: flex;
+    flex:1;
+    padding-left: 10px;
+    font-size: 16px;
+    border-radius: 2px;
+    border: none;
+
+}
+.search-box::placeholder {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: roboto;
+    color: black;
+    
+}
+
+.but1 {
+    border-radius: 2px;
+    margin-left: -1px;
+    background-color: rgb(240, 240, 240);
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(226, 226, 226);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color:rgb(226, 226, 226);
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color:rgb(226, 226, 226);
+    border-left-width: none;
+    border-left-style: none;
+    border-left-color: none;
+    /* border: 1px solid rgba(0, 0, 0, 0.10); */
+    height: 39px;
+    width: 45px;
+}
+.but1:hover {
+    cursor: pointer;
+    background-color: rgb(225, 225, 225);
+}
+.search-logo {
+    height: 30px;
+}
+.but2 {
+    background-color: rgb(240, 240, 240);
+    margin-left: 5px;
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 100%;
+}
+.but2:hover {
+    cursor: pointer;
+    background-color: rgb(238, 238, 238);
+}
+/* end  of middle*/
+/* RIGHT */
+.right {
+    width: 230px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+.right-pic {
+    height: 40px;
+    margin-right: 20px;
+}
+.right-pic4 {
+    object-fit: cover;
+    object-position: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+
+}

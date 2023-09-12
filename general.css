@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(247, 247, 247);
+    font-family: roboto;
+    max-width: 1366px;
+    margin: 0px;
+    padding-top: 75px;
+    padding-bottom: 1000px;
+    padding-left: 94px;
+    -webkit-text-size-adjust: 100%;
+}
+p {
+    margin: 0;
+}
